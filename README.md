@@ -20,7 +20,7 @@ This application allows users to manage medicine inventory by adding, editing, a
 
 ## Screenshots
 
-![Pharmacy Management System UI](./screenshot.png)
+![PharamacyMS_UI](https://github.com/user-attachments/assets/dc251d52-d245-46f3-8529-dda0fcd1c543)
 
 ## Technologies
 
