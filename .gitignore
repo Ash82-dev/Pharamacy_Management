@@ -1,52 +1,30 @@
-# Prerequisites
-*.d
+# Visual Studio build output
+bin/
+obj/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# NuGet Packages
+packages/
 
-# Precompiled Headers
-*.gch
-*.pch
+# SQL Server Database Files (if local)
+*.mdf
+*.ldf
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Web.config sensitive data
+Web.config
+!Web.config.example  # Include a sample config if desired
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Logs and temporary files
+*.log
+*.cache
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Environment-specific files
+env/
