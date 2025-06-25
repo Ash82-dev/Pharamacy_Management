@@ -6,12 +6,6 @@ A simple web-based pharmacy management system built with ASP.NET Web Forms.
 
 This application allows users to manage medicine inventory by adding, editing, and deleting items. It features a responsive UI with a GridView for displaying data and checkboxes for row selection.
 
-## Setup
-
-1. Clone the repository: `git clone https://github.com/yourusername/PharmacyManagementSystem.git`
-2. Update `Web.config` with your SQL Server connection string (e.g., replace `SHADOW\SQLSERVER` and `sa` password).
-3. Open the solution in Visual Studio and run the project.
-
 ## Features
 
 - Add new medicines with name, category (Sirop, Tablet, Injection, Perfusion), quantity, price, and manufacturer.
