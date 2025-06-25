@@ -1,0 +1,115 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #29a0b1;
+    font-size: 62.5%;
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 130rem;
+    height: 90vh;
+    background-color: #ddffe7;
+    margin: 5vh auto;
+    border-radius: 5px;
+    padding-bottom: 5rem;
+}
+
+.primary-header {
+    padding: 3rem 0 5rem 0;
+    font-size: 2.6rem;
+    color: #167d7f;
+    font-weight: 700;
+}
+
+
+form {
+    background-color: #29a0b1;
+}
+
+.input-fields {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 5rem;
+}
+
+.input-fields input,
+.input-fields select {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: 3px solid #8dbcc7;
+    border-radius: 5px;
+}
+
+.input-fields input:focus,
+.input-fields select:focus{
+    border-color: #167d7f;
+    outline: none;
+}
+
+input::placeholder,
+select::placeholder {
+    font-size: 1.6rem;
+}
+
+label {
+    font-size: 1.4rem;
+    padding: 0 0 0.5rem 0.5rem;
+}
+
+.buttons {
+display: flex;
+justify-content: center;
+gap: 2rem;
+margin-top: 3.6rem;
+}
+
+.button:hover {
+    background-color: #29a0b1;
+}
+
+.button {
+    width: 8rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #167d7f;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+
+.grid-container {
+    overflow-y: scroll;
+    width: 123.5rem; 
+    display: block; 
+}
+
+tr:first-child {
+    position: sticky; 
+    top: 0; 
+    z-index: 1; 
+}
+
+table {
+    margin: 0 5rem 0 2rem; 
+    font-size: 1.4rem; 
+    text-align: center; 
+    border-collapse: collapse;
+    border-radius: 0.5rem; 
+    width: 100%; 
+}
+
+tr {
+    height: 5rem; 
+}
